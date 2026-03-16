@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mockgpsprivacy"
+    namespace = "io.github.emanuele8888.mockgpsprivacy"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.mockgpsprivacy"
+        applicationId = "io.github.emanuele8888.mockgpsprivacy"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

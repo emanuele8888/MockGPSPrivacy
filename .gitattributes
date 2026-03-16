@@ -1,0 +1,4 @@
+# Tell GitHub Linguist to ignore vendored/third-party JS libraries
+# so the repository language stats reflect the actual project code (Kotlin).
+
+app/src/main/assets/leaflet/* linguist-vendored
