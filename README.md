@@ -8,30 +8,30 @@
 
 **MockGPSPrivacy** is an advanced Android application for GPS location simulation, designed with a strong focus on user privacy and security (Stealth Mode).
 
-![Main App Screen](screenshots/home_active.png)
+<img src="screenshots/home_active.png" width="300">
 
 ## 🚀 Main Features
 
 - **Precise GPS Simulation**: Set your location anywhere in the world.
   
-![Map View](screenshots/map_view.png)
+<img src="screenshots/map_view.png" width="300">
 
 - **Stealth Mode (Privacy Check)**: Scans the system for suspicious applications that might read system logs or detect the use of mock locations.
 - **Dynamic Jitter**: Adds a controlled random variation (in meters) to the simulated position to make it more natural and less detectable by tracking systems.
 - **Profile Management**: Save and manage different favorite locations for quick switching.
   
-![Saved Profiles](screenshots/profiles.png)
+<img src="screenshots/profiles.png" width="300">
 
 - **Background Service**: Keeps the simulated location active even when the app is closed, thanks to a foreground service with a persistent notification.
 - **Modern Interface**: Developed entirely with Jetpack Compose and Material 3.
   
-![Home Idle](screenshots/home_inactive.png)
+<img src="screenshots/home_inactive.png" width="300">
 
 ## 🧠 Technical Details: Jitter & Kinematic Physics
 
 Unlike common mock GPS apps that apply static random noise to coordinates, MockGPSPrivacy uses a **Kinematic Engine** to simulate realistic movement:
 
-![Jitter Settings](screenshots/jitter_settings.png)
+<img src="screenshots/jitter_settings.png" width="300">
 
 - **Elastic Force (Hooke's Law)**: A virtual restorative force (`F = -k*x`) keeps the simulated position within the set range.
 - **Inertia and Acceleration**: The simulated point has a virtual "mass" and variations occur through random accelerations (Random Walk), avoiding detectable abrupt jumps.
@@ -49,7 +49,7 @@ No need to build from source — download the pre-built APK directly from the **
 1. **Developer Options**: Enable "Developer options" on your Android device.
 2. **Select Mock Location App**: In developer options, search for "Select mock location app" and choose **MockGPSPrivacy**.
 
-![Developer Settings](screenshots/developer_settings.png)
+<img src="screenshots/developer_settings.png" width="300">
 
 3. **Permissions**:
     - **Location**: Necessary for GPS functionality.
@@ -59,7 +59,7 @@ No need to build from source — download the pre-built APK directly from the **
 
 Unlike many other mock GPS apps, MockGPSPrivacy includes tools to identify third-party apps attempting to monitor GPS behavior. "Stealth Mode" helps the user understand if the execution environment is secure.
 
-![Security Scan](screenshots/security_scan.png)
+<img src="screenshots/security_scan.png" width="300">
 
 ## 🛠 Tech Stack
 
